@@ -1,6 +1,6 @@
 <h1>String Comparison Algorithm</h1>
 
-<h2>A (let's hope) quick and simple algorithm that compares 2 strings and returns the % of similarities</h2>
+<h2>A (let's hope) quick and simple algorithm that compares 2 strings and returns the % of how similar they are</h2>
 
 <h2>How it works:</h2>
 
