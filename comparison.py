@@ -22,6 +22,9 @@ def compare(first_list,second_list):
         maxlenght = len(second_list)
     
     #   the algorithm scroll each word from first list with each word from second
+    #PASETTO STA ROBA NON FUNZIONA METTE IN CONFRONTO OGNI PAROLA CHIAVE NELLA STESSA POSIZIONE 
+    #DEL PRIMO E DEL SECONDO, SE METTIAMO IN UNA PAROLA DELLA PRIMA CON TUTTE LE ALTRE PAROLE DELLA SECONDA
+    #VIENE FUORI UN CASINO
     simialrities = 0
     for first in first_list:
         for second in second_list:
