@@ -23,3 +23,4 @@ so the score is 6/8 so 75% similar
 this algorithm needs to be trained so we can figure out the perfect % to assign as a suitable similarity value
 
 <h2>TODO :</h2>
+-   [ ] Currently the function "keythis" does not work 100%, needs a remake
