@@ -8,20 +8,33 @@ second_string = "This is the second string, it's a very simple string as well an
 
 def __main__():
     #seprates the words and places them into a dictionary
-    list_first = list
-    list_second = list
-    list_first = listthis(first_string)
-    print(list_first)
+    print(compare(listthis(first_string),listthis(second_string)))
+    
+
+def compare(first_list,second_list):
+    score = 0.0
+    maxlenght = int
+    if len(first_list) > len(second_list):
+        maxlenght = len(first_list)
+    else:
+        maxlenght = len(second_list)
+    
+    #   the algorithm scroll each word from first list with each word from second
+
+    return score
+
+
 
 ##this function removes every word except keywords
 def keythis(thelist):
     rmthis = ["a","is","it","for","it's","as","and","the","has","this","that","there"]
-    for counter in thelist: ## for each element on the list
-        print(thelist)
+    for counter in range(len(thelist)):
         for rm in rmthis:
-            if counter == rm:
-                thelist.remove(counter)
-                
+            if thelist[counter] == rm.lower():
+                thelist[counter] = " "
+
+    while (thelist.count(" ")):
+        thelist.remove(" ")
     return thelist
         
 
