@@ -5,6 +5,7 @@
 <h2>How it works:</h2>
 
 This is the first string, it's a very simple string and has nothing special
+
 This is the second string, it's a very simple string as well and has nothing special
 
 ->  The string scoring system takes all the KEY words and compares each and every one of the first with each and 
@@ -13,7 +14,9 @@ This is the second string, it's a very simple string as well and has nothing spe
 Example :
 
 (Removes some unecessary words such as "this, or, beacause, thing, is, the")
+
 KEY WORDS (string1) : first string very simple string nothing special
+
 KEY WORDS (string2) : second string very simple string well nothing special
 
 Which of the 2 has more words? : --strring2-- with --8-- words
@@ -22,9 +25,11 @@ so the score is 6/8 so 75% similar
 
 HOWEVER:
 -this algorithm needs to be trained so we can figure out the perfect % to assign as a suitable similarity value
+
 -this algorithm compares the words between each other one after another and not each and every one of the first with each and every word of the second
 
 
 <h2>TODO :</h2>
-- [X] Currently the function "keythis" does not work 100%, needs a remake (WORKS)
+
+- [x] Currently the function "keythis" does not work 100%, needs a remake (WORKS)
 - [ ] The algorithm works 100% but it compares the words between individually alligned, must be changed
