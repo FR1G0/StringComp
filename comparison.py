@@ -8,11 +8,13 @@ second_string = "This is the second string, it's a very simple string as well an
 
 def __main__():
     #seprates the words and places them into a dictionary
-    print(compare(listthis(first_string),listthis(second_string)))
+    print(compare(listthis(first_string.lower()),listthis(second_string.lower())))
     
 
 def compare(first_list,second_list):
     score = 0.0
+    print(first_list)
+    print(second_list)
     maxlenght = int
     if len(first_list) > len(second_list):
         maxlenght = len(first_list)
@@ -20,6 +22,13 @@ def compare(first_list,second_list):
         maxlenght = len(second_list)
     
     #   the algorithm scroll each word from first list with each word from second
+    simialrities = 0
+    for first in first_list:
+        for second in second_list:
+            if first == second:
+                simialrities = simialrities +1
+                
+    score = simialrities/maxlenght * 100
 
     return score
 

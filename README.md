@@ -20,7 +20,11 @@ Which of the 2 has more words? : --strring2-- with --8-- words
 
 so the score is 6/8 so 75% similar 
 
-this algorithm needs to be trained so we can figure out the perfect % to assign as a suitable similarity value
+HOWEVER:
+-this algorithm needs to be trained so we can figure out the perfect % to assign as a suitable similarity value
+-this algorithm compares the words between each other one after another and not each and every one of the first with each and every word of the second
+
 
 <h2>TODO :</h2>
-- [ ] Currently the function "keythis" does not work 100%, needs a remake
+- [X] Currently the function "keythis" does not work 100%, needs a remake (WORKS)
+- [ ] The algorithm works 100% but it compares the words between individually alligned, must be changed
