@@ -1,7 +1,11 @@
 <h1>String Comparison Algorithm</h1>
 
 <h2>A (let's hope) quick and simple algorithm that compares 2 strings and returns the % of how similar they are</h2>
-
+<img src="https://forthebadge.com/images/badges/fuck-it-ship-it.svg"> 
+<img src="https://forthebadge.com/images/badges/made-with-python.svg">
+<img src="https://forthebadge.com/images/badges/powered-by-black-magic.svg">
+<img src="https://forthebadge.com/images/badges/fo-real.svg">
+<img src="https://forthebadge.com/images/badges/certified-cousin-terio.svg">
 <h2>How it works:</h2>
 
 This is the first string, it's a very simple string and has nothing special
